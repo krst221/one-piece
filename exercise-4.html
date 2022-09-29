@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encuentra el One Piece</title>
+    <script src="ex4.js" defer></script>
+    <link href="./ex4style.css" rel="stylesheet">
+</head>
+<body>
+    <img class="op" src="./public/exercise-4/One_Piece_Logo.webp" alt="">
+    <h1>Encuenta el One Piece!</h1>
+    <div>
+      <span>Intentos: <span class="red" data-function="attempts">0</span></span>
+      <span>Mejor puntuación: <span data-function="high" class="green">-</span><span> La tabla era de </span><span data-function="fhigh" class="yellow"> - </span><span> x </span><span data-function="chigh" class="yellow"> - </span></span>
+    </div>
+    <table>
+     <tbody data-function="board"></tbody>
+    </table>
+    <button id="reset">Reinicia la tabla</button>
+</body>
+</html>
